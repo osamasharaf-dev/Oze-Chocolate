@@ -354,7 +354,7 @@
     const s = document.createElement('script'); s.src = BASE + 'assets/vendor/maplibre-gl.js';
     s.onload = () => {
       try {
-        map = new maplibregl.Map({ container: el, style: 'https://tiles.openfreemap.org/styles/liberty', center: [46.67, 24.74], zoom: 11.5, pitch: 0, bearing: 0, attributionControl: { compact: true }, cooperativeGestures: false });
+        map = new maplibregl.Map({ container: el, style: 'https://tiles.openfreemap.org/styles/liberty', center: [SHOP.lng, SHOP.lat], zoom: 15, pitch: 0, bearing: 0, attributionControl: { compact: true }, cooperativeGestures: false });
         map.scrollZoom.setWheelZoomRate(1 / 600);
         map.on('load', () => {
           clearTimeout(fail);

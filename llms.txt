@@ -13,7 +13,7 @@ The full product, occasion, service, FAQ and contact information, in English and
 - [Full information for AI assistants](https://oze-chocolate.vercel.app/llms-full.txt): Complete facts, products, occasions, hours, location, FAQ in English and Arabic.
 - [Sitemap](https://oze-chocolate.vercel.app/sitemap.xml): The list of public URLs with product images.
 
-## Products (Signatures)
+## Products (Flavors)
 
 - The OZE Seal (ختم أوز): smooth milk chocolate with the red OZE seal on top.
 - The Gilded Dome (القبة الذهبية): chocolate dome covered in glossy ganache, finished with a leaf of gold.

@@ -452,3 +452,14 @@ input,textarea{touch-action:auto}
 .map__card a:hover::after{transform:translateX(3px)}
 html[dir="rtl"] .map__card a::after{content:"←"}
 html[dir="rtl"] .map__card a:hover::after{transform:translateX(-3px)}
+
+/* ---------- delivery tiles: smaller again ---------- */
+.dlv__tile{width:clamp(62px,5.2vw,74px);border-radius:12px}
+.dlv__logo{font-size:clamp(10px,.9vw,12px)}
+.dlv__logo--jahez{font-size:clamp(12px,1.1vw,14px)}
+.dlv__tiles{gap:8px}
+
+/* ---------- map: label and shop badge ---------- */
+.map__tag{position:absolute;top:12px;left:12px;z-index:3;display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border-radius:999px;background:rgba(255,253,248,.94);box-shadow:0 8px 20px -12px rgba(43,26,16,.5);font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-dark)}
+html[dir="rtl"] .map__tag{left:auto;right:12px;letter-spacing:0;text-transform:none;font-size:12px}
+.map__tag i{width:8px;height:8px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 4px rgba(211,166,85,.25)}
