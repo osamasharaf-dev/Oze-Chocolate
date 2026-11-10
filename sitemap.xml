@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://oze-chocolate.vercel.app/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oze-chocolate.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oze-chocolate.vercel.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oze-chocolate.vercel.app/"/>
+    <image:image>
+      <image:loc>https://oze-chocolate.vercel.app/assets/img/pour-poster-d.jpg</image:loc>
+      <image:title>OZE premium Swiss chocolate</image:title>
+      <image:caption>OZE premium Swiss chocolate being poured, Riyadh</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://oze-chocolate.vercel.app/assets/img/seal.webp</image:loc>
+      <image:title>The OZE Seal</image:title>
+      <image:caption>Smooth milk chocolate with the red OZE seal on top</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://oze-chocolate.vercel.app/assets/img/dome.webp</image:loc>
+      <image:title>The Gilded Dome</image:title>
+      <image:caption>Chocolate dome covered in glossy ganache and finished with gold leaf</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://oze-chocolate.vercel.app/assets/img/praline.webp</image:loc>
+      <image:title>Cocoa Praline</image:title>
+      <image:caption>Hazelnut and caramel praline dusted with gold, rolled in pure cocoa</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://oze-chocolate.vercel.app/assets/img/kunafa.webp</image:loc>
+      <image:title>Pistachio Kunafa</image:title>
+      <image:caption>Golden kunafa cups filled with pistachio cream, with white chocolate rose bites</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://oze-chocolate.vercel.app/assets/img/pedestal.webp</image:loc>
+      <image:title>Rose Kunafa</image:title>
+      <image:caption>Crisp kunafa wrapped around soft chocolate, finished with rose</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://oze-chocolate.vercel.app/assets/img/crown.webp</image:loc>
+      <image:title>The Crown</image:title>
+      <image:caption>Tall centrepiece of caramel shards and dark chocolate</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://oze-chocolate.vercel.app/assets/img/wedding.webp</image:loc>
+      <image:title>OZE chocolates for weddings</image:title>
+      <image:caption>OZE chocolates on a wedding table with flowers</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://oze-chocolate.vercel.app/assets/img/box.webp</image:loc>
+      <image:title>OZE gift boxes</image:title>
+      <image:caption>OZE gift boxes filled with chocolates</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://oze-chocolate.vercel.app/ar/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oze-chocolate.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oze-chocolate.vercel.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oze-chocolate.vercel.app/"/>
+    <image:image>
+      <image:loc>https://oze-chocolate.vercel.app/assets/img/seal.webp</image:loc>
+      <image:title>ختم أوز</image:title>
+      <image:caption>شوكولاتة حليب ناعمة مع الختم الأحمر لأوز</image:caption>
+    </image:image>
+  </url>
+</urlset>

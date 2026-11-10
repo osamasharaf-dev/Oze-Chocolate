@@ -1,0 +1,43 @@
+# OZE (أوز)
+
+> OZE is a premium Swiss chocolate shop in Riyadh, Saudi Arabia, on King Abdullah Road in Al Mohammadiyyah. It makes handcrafted signature chocolates, gift boxes, and chocolate for weddings, engagements, gatherings and gifts. Orders are placed by WhatsApp or by the request form on the website. Working hours: 1:00 PM – 11:00 PM, Saturday to Thursday; Friday 3:00 PM – 11:00 PM.
+
+> أوز (OZE) شوكولاتة سويسرية فاخرة، محل في الرياض على طريق الملك عبدالله بحي المحمدية. نصنع قطع شوكولاتة مميزة بيدنا، وعلب هدايا، وشوكولاتة للأفراح والخطوبات والمناسبات والهدايا. الطلب عبر واتساب أو نموذج الطلب في الموقع. ساعات العمل: من 1:00 ظهراً إلى 11:00 مساءً، السبت إلى الخميس؛ والجمعة من 3:00 عصراً إلى 11:00 مساءً.
+
+The full product, occasion, service, FAQ and contact information, in English and Arabic, is in [llms-full.txt](https://oze-chocolate.vercel.app/llms-full.txt).
+
+## Main pages
+
+- [OZE website (English)](https://oze-chocolate.vercel.app/): Home page with signature chocolates, occasions, bespoke orders, contact form, WhatsApp, and map.
+- [OZE website (Arabic, العربية)](https://oze-chocolate.vercel.app/ar/): Arabic version of the home page, with the same content, right to left.
+- [Full information for AI assistants](https://oze-chocolate.vercel.app/llms-full.txt): Complete facts, products, occasions, hours, location, FAQ in English and Arabic.
+- [Sitemap](https://oze-chocolate.vercel.app/sitemap.xml): The list of public URLs with product images.
+
+## Products (Signatures)
+
+- The OZE Seal (ختم أوز): smooth milk chocolate with the red OZE seal on top.
+- The Gilded Dome (القبة الذهبية): chocolate dome covered in glossy ganache, finished with a leaf of gold.
+- Cocoa Praline (برالين الكاكاو): hazelnut and caramel centre, dusted with gold and rolled in pure cocoa.
+- Pistachio Kunafa (كنافة الفستق): golden kunafa cups with pistachio cream, served with white chocolate rose bites.
+- Rose Kunafa (كنافة الورد): crisp kunafa wrapped around soft chocolate, finished with a touch of rose.
+- The Crown (التاج): tall centrepiece of caramel shards and dark chocolate, for the middle of the table.
+
+## Occasions and services
+
+- Weddings (أفراح): chocolate trays and table centrepieces matched to the wedding colours.
+- Engagements (خطوبات): small pieces with the couple's initials.
+- Gatherings (مناسبات ومجالس): chocolate served to guests at receptions, majlis and family gatherings, by OZE staff.
+- Gifts (هدايا): gift boxes in every size, wrapped and ready to give.
+- Bespoke (طلبات خاصة): names, initials or company logo added to the chocolate; chocolate trays, boxes or a full table set up.
+
+## Contact and location
+
+- WhatsApp orders: [+966 55 100 4442](https://wa.me/966551004442)
+- Phone: +966 55 100 4442
+- Instagram: [@ozeksa](https://www.instagram.com/ozeksa)
+- Address: King Abdullah Rd, Al Mohammadiyyah, Riyadh, Saudi Arabia (طريق الملك عبدالله، حي المحمدية، الرياض)
+- Map and directions: [Google Maps](https://maps.app.goo.gl/UGUijWdSoDEHStFbA)
+
+## Optional
+
+- [Sitemap](https://oze-chocolate.vercel.app/sitemap.xml)
