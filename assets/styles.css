@@ -433,3 +433,22 @@ input,textarea{touch-action:auto}
 
 /* ---------- language switch (header) ---------- */
 .tlink.lang{font-size:11px}
+
+/* ---------- delivery tiles: smaller ---------- */
+.dlv__tile{width:clamp(74px,6.2vw,88px);border-radius:14px}
+.dlv__logo{font-size:clamp(12px,1.05vw,15px)}
+.dlv__logo--jahez{font-size:clamp(14px,1.3vw,18px)}
+.dlv__tiles{gap:10px}
+
+/* ---------- map: framed, with a tappable directions button ---------- */
+.map{border-radius:18px;overflow:hidden;border:1px solid rgba(201,151,63,.38);box-shadow:0 24px 48px -28px rgba(43,26,16,.45)}
+.map__gl{transition:filter .6s var(--ease)}
+.map:hover .map__gl{filter:saturate(1.08)}
+.map__card{border-radius:16px;padding:12px 14px 12px 16px;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);border:1px solid rgba(201,151,63,.3)}
+.map__card b{font-size:18px}
+.map__card a{display:inline-flex;align-items:center;gap:8px;height:38px;padding:0 16px;border-radius:999px;background:linear-gradient(120deg,#A8761F,#D3A655 55%,#ECC987);color:#FFFDF8;letter-spacing:.16em;transition:transform .4s var(--ease),box-shadow .4s var(--ease)}
+.map__card a::after{content:"→";font-size:13px;letter-spacing:0;transition:transform .4s var(--ease)}
+.map__card a:hover,.map__card a:focus-visible{transform:translateY(-2px);box-shadow:0 10px 22px -10px rgba(168,118,31,.8)}
+.map__card a:hover::after{transform:translateX(3px)}
+html[dir="rtl"] .map__card a::after{content:"←"}
+html[dir="rtl"] .map__card a:hover::after{transform:translateX(-3px)}
