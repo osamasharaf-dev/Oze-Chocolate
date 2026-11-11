@@ -80,3 +80,7 @@ html[dir="rtl"] p{font-size:1.08em}
 html[dir="rtl"] b,
 html[dir="rtl"] .val{direction:ltr;unicode-bidi:isolate}
 html[dir="rtl"] .tlink.lang{font-family:"Tajawal",system-ui,sans-serif;font-size:13px;letter-spacing:0}
+
+/* Arabic: the menu arrow points the other way, and the phone label follows RTL. */
+html[dir="rtl"] .menu button.m::after{content:"\2196";margin-inline-start:0;margin-inline-end:auto}
+html[dir="rtl"] .sig__kicker{letter-spacing:0;text-transform:none;font-size:13px}

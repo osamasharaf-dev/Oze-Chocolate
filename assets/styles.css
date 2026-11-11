@@ -463,3 +463,40 @@ html[dir="rtl"] .map__card a:hover::after{transform:translateX(-3px)}
 .map__tag{position:absolute;top:12px;left:12px;z-index:3;display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border-radius:999px;background:rgba(255,253,248,.94);box-shadow:0 8px 20px -12px rgba(43,26,16,.5);font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-dark)}
 html[dir="rtl"] .map__tag{left:auto;right:12px;letter-spacing:0;text-transform:none;font-size:12px}
 .map__tag i{width:8px;height:8px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 4px rgba(211,166,85,.25)}
+
+/* ---------- language icon (header) ---------- */
+.lang-ico{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:50%;color:#B8862F;border:1px solid rgba(184,134,47,.55);background:transparent;transition:transform .6s var(--ease),background .5s,border-color .5s,color .5s}
+.lang-ico svg{width:19px;height:19px}
+.lang-ico:hover,.lang-ico:focus-visible{transform:rotate(-14deg) scale(1.06);background:rgba(211,166,85,.14);border-color:#D3A655;color:#A8761F}
+.header.is-light .lang-ico,.header.is-light .lang-ico{color:#A8761F}
+
+/* ---------- menu: logo, sheen background, nudging arrows ---------- */
+.menu{overflow:hidden}
+.menu::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;background:linear-gradient(115deg,transparent 38%,rgba(211,166,85,.22) 47%,rgba(255,240,200,.75) 50%,rgba(211,166,85,.22) 53%,transparent 62%),linear-gradient(180deg,#FFFDF8,#F5ECDC);background-size:260% 100%,100% 100%;background-repeat:no-repeat;animation:menuSheen 8s linear infinite}
+@keyframes menuSheen{0%{background-position:130% 0,0 0}100%{background-position:-130% 0,0 0}}
+.menu>*:not(.menu__close){position:relative;z-index:1}
+.menu__logo{display:block;width:clamp(110px,30vw,160px);height:auto;align-self:center;margin-bottom:clamp(8px,2vh,18px)}
+.menu__logo use{fill:url(#ozeGold)}
+.menu button.m::after{content:"\2197";margin-inline-start:auto;font-family:var(--sans);font-size:clamp(18px,4.6vw,24px);line-height:1;color:#B8862F;animation:nudge 2.8s ease-in-out infinite}
+.menu button.m:nth-of-type(2)::after{animation-delay:.25s}
+.menu button.m:nth-of-type(3)::after{animation-delay:.5s}
+.menu button.m:nth-of-type(4)::after{animation-delay:.75s}
+.menu button.m:nth-of-type(5)::after{animation-delay:1s}
+@keyframes nudge{0%,100%{transform:translate(0,0)}50%{transform:translate(4px,-4px)}}
+
+/* ---------- Flavors label for the third section on phones (sits under the header, doesn't move layout) ---------- */
+.sig__kicker{display:none}
+@media (max-width:900px){
+  .lang-ico{width:30px;height:30px}
+  .lang-ico svg{width:16px;height:16px}
+  .header__right{gap:10px}
+  .sig__kicker{display:block;margin:0 0 2px;font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold-dark)}
+}
+
+/* ---------- menu: quick links (WhatsApp, Instagram, call, location) ---------- */
+.menu__social{position:relative;z-index:1;display:flex;gap:10px;align-self:flex-start;margin-top:clamp(14px,3vh,26px)}
+.menu__social a{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;color:#A8761F;border:1px solid rgba(184,134,47,.5);background:rgba(255,253,248,.6);transition:transform .5s var(--ease),background .4s,color .4s}
+.menu__social a:hover,.menu__social a:focus-visible{transform:translateY(-2px);background:linear-gradient(120deg,#A8761F,#D3A655);color:#FFFDF8;border-color:transparent}
+.menu__social svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linejoin:round;stroke-linecap:round}
+.menu__social a:first-child svg{fill:currentColor;stroke:none}
+.menu__social a:first-child svg path:last-child{fill:#FFFDF8}
